@@ -1,8 +1,10 @@
 ---
 title: Template Chapter 1
-description: This is a template chapter.
----
+description: >-
+  This is a template chapter.
 
+
+---
 ## Ex 1.1
 
 ```yaml
@@ -13,7 +15,47 @@ skills: 1
 key: 968e5d700f
 ```
 
-Do some data science.
+ Installing R package - Bioconductor package + non-Bioconductor
+
+`@instructions`
+source("http://bioconductor.org/biocLite.R")
+biocLite()=> ~10min
+# This will install a core set of Bioconductor packages (“affy”, “affydata”, “affyPLM”, “annaffy”, “annotate”,
+“Biobase”, “Biostrings”, “DynDoc”, “gcrma”, “genefilter”, “geneplotter”, “hgu95av2.db”, “limma”, “marray”,
+“matchprobes”, “multtest”, “ROC”, “vsn”, “xtable”, “affyQCReport”).
+
+`@hint`
+
+
+`@pre_exercise_code`
+```{r}
+source("http://bioconductor.org/biocLite.R")
+biocLite()
+```
+`@sample_code`
+```{r}
+source("http://bioconductor.org/biocLite.R")
+biocLite()
+```
+
+
+
+
+
+
+
+---
+## Insert exercise title here
+
+```yaml
+type: NormalExercise
+
+xp: 
+
+key: 94fa9f8ca2
+```
+
+
 
 `@instructions`
 
@@ -21,26 +63,11 @@ Do some data science.
 `@hint`
 
 
-`@pre_exercise_code`
 
-```{r}
 
-```
 
-`@sample_code`
 
-```{r}
 
-```
 
-`@solution`
 
-```{r}
 
-```
-
-`@sct`
-
-```{r}
-
-```
